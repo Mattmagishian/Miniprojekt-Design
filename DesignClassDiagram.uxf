@@ -1,13 +1,106 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>210</y><w>120</w><h>70</h></coordinates><panel_attributes>Copy
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>800</y>
+      <w>320</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Copy
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>120</y><w>110</w><h>70</h></coordinates><panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>270</y>
+      <w>120</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Loan
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>370</y><w>120</w><h>70</h></coordinates><panel_attributes>Loan
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>490</y>
+      <w>410</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Friend
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>210</y><w>130</w><h>70</h></coordinates><panel_attributes>Friend
+- name: String
+- address: String
+- phoneNo: int
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>320</y><w>130</w><h>70</h></coordinates><panel_attributes>Friend
++ &lt;&lt;create&gt;&gt; Friend (name: String, address: String, phoneNo:int)
++ getName():String
++ setName(name: String)
++ getAddress():String
++ setAddress(address: String)
++ getPhoneNo():int
++ setPhoneNo(phoneNo: int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>380</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Friend
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>340</y><w>120</w><h>70</h></coordinates><panel_attributes>Lp
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>480</y>
+      <w>530</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Lp
 --
-</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+- barcode: String
+- title: String
+- Artist: String
+- publicationDate: String
+--
++ &lt;&lt;create&gt;&gt; Lp (barcode: String, title: String, artist: String, publicationDate: String)
++ getBarcode():String
++ setBarcode(barocde: String)
++ getTitle():String
++ setTitle(title: String)
++ getArtist():String
++ setArtist(artist: String)
++ getPublicationDate():String
++ setPublicationDate(publicationDate: String)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>90</y>
+      <w>120</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>LpManagementUI
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
