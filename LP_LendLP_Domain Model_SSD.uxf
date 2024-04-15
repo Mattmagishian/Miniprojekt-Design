@@ -176,13 +176,13 @@ friendInfo</panel_attributes>
     <coordinates>
       <x>890</x>
       <y>300</y>
-      <w>520</w>
+      <w>530</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 findFriendByPhoneNo(phoneNo: String)
 </panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -200,23 +200,23 @@ copyInfo</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>890</x>
-      <y>260</y>
+      <y>250</y>
       <w>30</w>
-      <h>430</h>
+      <h>510</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;410.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;490.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1380</x>
+      <x>1390</x>
       <y>250</y>
       <w>30</w>
-      <h>440</h>
+      <h>510</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;420.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;490.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -258,13 +258,13 @@ confirmation</panel_attributes>
     <coordinates>
       <x>890</x>
       <y>380</y>
-      <w>520</w>
+      <w>530</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 createLoan(loanNumber: int, borrowDate: String, period: int, status: boolean)
 </panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -278,5 +278,30 @@ createLoan(loanNumber: int, borrowDate: String, period: int, status: boolean)
 confirmation
 </panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>660</y>
+      <w>530</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+endLoan
+</panel_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>700</y>
+      <w>530</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+confirmation</panel_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
 </diagram>
