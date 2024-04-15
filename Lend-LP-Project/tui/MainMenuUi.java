@@ -8,7 +8,9 @@ public class MainMenuUi {
         System.out.println("(2) LP menu");
         System.out.println("(3) Loan menu");
         
-        System.out.println("(9) Quit the program");
+        System.out.println("(9) Generate test data");
+        System.out.println("(0) Quit the program");
+        
+        System.out.println("Choice: ");
     }
-
 }
