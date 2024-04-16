@@ -16,7 +16,7 @@
 _- instance: LpContainer_
 -
 _+ getInstance(): LpContainer_
-+ findCopyBySerialNo(serialNo:int)
++ findCopyBySerialNo(serialNo:int):Copy
 + addLp(lp:Lp):void
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>39</x><y>442</y><w>377</w><h>130</h></coordinates><panel_attributes>FriendContainer
 -
@@ -69,7 +69,7 @@ _+ getInstance(): LoanContainer_
 + getPublicationDate():String
 + setPublicationDate(publicationDate: String)
 + getCopies():ArrayList&lt;Copy&gt;
-+ findCopyBySerialNo(serialNo:int)
++ findCopyBySerialNo(serialNo:int):Copy
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1664</x><y>1092</y><w>429</w><h>208</h></coordinates><panel_attributes>Copy
 -
 - serialNo: int
@@ -110,14 +110,13 @@ _+ getInstance(): LoanContainer_
 + createFriend (name: String, address: String, phoneNo:int)
 + findFriendByPhoneNo(phoneNo:int)
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>403</x><y>325</y><w>507</w><h>52</h></coordinates><panel_attributes>lt=&lt;-
-</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1664</x><y>247</y><w>390</w><h>117</h></coordinates><panel_attributes>LpController
+</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1664</x><y>247</y><w>585</w><h>143</h></coordinates><panel_attributes>LpController
 -
 
 -
 + createLp(barcode: String, title: String, artist: String, publicationDate: String)
-+ findCopyBySerialNo(serialNo:int)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1729</x><y>351</y><w>39</w><h>169</h></coordinates><panel_attributes>lt=&lt;-
++ findCopyBySerialNo(serialNo:int):Copy</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1729</x><y>377</y><w>39</w><h>143</h></coordinates><panel_attributes>lt=&lt;-
 
-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1144</x><y>624</y><w>39</w><h>169</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1144</x><y>624</y><w>39</w><h>169</h></coordinates><panel_attributes>lt=&lt;-
 
 </panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>

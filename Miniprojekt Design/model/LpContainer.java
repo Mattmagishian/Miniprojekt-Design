@@ -26,7 +26,7 @@ public class LpContainer
     }
     
     public void addLp(Lp lp){
-        //TODO implement add lp method
+        //TODO implement add funtion call from controller
     }
     
     public int findCopyBySerialNo(int serialNo){

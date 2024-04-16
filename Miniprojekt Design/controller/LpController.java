@@ -1,5 +1,5 @@
 package controller;
-
+import model.*;
 
 /**
  * Write a description of class LpController here.
@@ -10,26 +10,16 @@ package controller;
 public class LpController
 {
     // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class LpController
-     */
-    public LpController()
-    {
-        // initialise instance variables
-        x = 0;
+    public LpController(String barcode, String title, String artist, String publicationDate){
+        //TODO initalize this
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public void createLp(String barcode, String title, String artist, String publicationDate){
+        //TODO Implement method
+    }
+    
+    public Copy findCopyBySerialNo(int serialNo){
+        //TODO implement method
+        return null; 
     }
 }
