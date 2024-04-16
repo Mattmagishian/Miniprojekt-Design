@@ -16,11 +16,6 @@ public class FriendController
         
     }
     
-    public void createFriend(String name, String address, String phoneNo) {
-        //TODO f1 = new Friend(...)...
-        Friend newFriend = new Friend(name, address, phoneNo);
-    }
-    
     public Friend findFriendByPhoneNo(String phoneNo) {
         return FriendContainer.getInstance().findFriendByPhoneNo(phoneNo);
     }
