@@ -1,4 +1,5 @@
 package model;
+import java.util.ArrayList;
 
 
 /**
@@ -10,26 +11,27 @@ package model;
 public class LpContainer
 {
     // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class LpContainer
-     */
-    public LpContainer()
-    {
-        // initialise instance variables
-        x = 0;
+    private ArrayList<Lp> lps;
+    private static LpContainer instance; 
+    
+    private LpContainer(){
+        lps = new ArrayList<>();
+    }
+    
+    public static LpContainer getInstance() {
+        if (instance == null){
+            instance = new LpContainer();
+        }
+        return instance;
+    }
+    
+    public void addLp(Lp lp){
+        //TODO implement add lp method
+    }
+    
+    public int findCopyBySerialNo(int serialNo){
+        //TODO Implement method
+        return 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
 }
