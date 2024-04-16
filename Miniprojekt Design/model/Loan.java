@@ -1,5 +1,6 @@
 package model;
 
+import model.Friend;
 public class Loan
 {
     //fields
@@ -7,13 +8,15 @@ public class Loan
     private String borrowDate;
     private int period;
     private boolean status;
+    private Friend loaner;
 
     //constructor
-    public Loan(int loanNo, String borrowDate, int period, boolean status) {
+    public Loan(int loanNo, String borrowDate, int period, boolean status, Friend loaner) {
         this.loanNo = loanNo;
         this.borrowDate = borrowDate;
         this.period = period;
         this.status = status;
+        this.loaner = loaner;
     }
 
     //getters - accessors

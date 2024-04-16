@@ -12,9 +12,9 @@ public class Friend
     // instance variables - replace the example below with your own
     private String name; 
     private String address;
-    private int phoneNo;
+    private String phoneNo;
     
-    public Friend (String name, String address, int phoneNo){
+    public Friend (String name, String address, String phoneNo){
         this.name = name; 
         this.address = address;
         this.phoneNo = phoneNo;
@@ -36,7 +36,7 @@ public class Friend
         this.address = address;
     }
     
-    public int getPhone(){
+    public String getPhoneNo(){
         return phoneNo;
     }
     

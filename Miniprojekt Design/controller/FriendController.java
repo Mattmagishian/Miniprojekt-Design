@@ -1,6 +1,6 @@
 package controller;
 
-
+import model.*;
 /**
  * Write a description of class FriendController here.
  *
@@ -9,27 +9,19 @@ package controller;
  */
 public class FriendController
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class FriendController
-     */
-    public FriendController()
-    {
-        // initialise instance variables
-        x = 0;
+    //fields
+    
+    //constructor
+    public FriendController() {
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public void createFriend(String name, String address, String phoneNo) {
+        //TODO f1 = new Friend(...)...
+    }
+    
+    public Friend findFriendByPhoneNo(String phoneNo) {
+        //TODO
+        return null;
     }
 }

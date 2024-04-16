@@ -1,5 +1,5 @@
 package model;
-
+import java.util.ArrayList;
 
 /**
  * Write a description of class FriendContainer here.
@@ -9,27 +9,23 @@ package model;
  */
 public class FriendContainer
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class FriendContainer
-     */
-    public FriendContainer()
-    {
-        // initialise instance variables
-        x = 0;
+    //fields
+    private ArrayList<Friend> friends;
+    private static FriendContainer instance;
+    
+    private FriendContainer() {
+        friends = new ArrayList<>();
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public static FriendContainer getInstance() {
+        if (instance == null){
+            instance = new FriendContainer();
+        }
+        return instance;
+    }
+    
+    public Friend findFriendByPhoneNo(String phoneNo) {
+        //TODO
+        return null;
     }
 }

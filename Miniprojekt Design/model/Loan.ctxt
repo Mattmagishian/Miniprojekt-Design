@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Loan
-comment1.params=loanNo\ borrowDate\ period\ status
-comment1.target=Loan(int,\ java.lang.String,\ int,\ boolean)
+comment1.params=loanNo\ borrowDate\ period\ status\ loaner
+comment1.target=Loan(int,\ java.lang.String,\ int,\ boolean,\ Friend)
 comment10.params=copy
 comment10.target=boolean\ addCopyToLoan(Copy)
 comment2.params=

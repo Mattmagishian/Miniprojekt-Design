@@ -1,28 +1,38 @@
 package controller;
 
+import model.*;
 public class LendLpController
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class LendLpController
-     */
-    public LendLpController()
-    {
-        // initialise instance variables
-        x = 0;
+    //fields
+    
+    //constructor
+    public LendLpController() {
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public void createLoan(int loanNo, String borrowDate, int period, boolean status, Friend loaner) {
+        //TODO implement
+        //this is incorrect for some reason:D manana manana
+        //Loan newLoan = new Loan(loanNo, borrowDate, period, status, loaner);
+    }
+    
+    public Friend findFriendByPhoneNo(String phoneNo) {
+        //TODO
+        return null;
+    }
+    
+    public Copy findCopyBySerialNo(int serialNo) {
+        //TODO
+        return null;
+    }
+    
+    public boolean addCopyToLoan(Copy copy) {
+        //TODO
+        return false;
+    }
+    
+    public boolean addLoanToContainer(Loan newLoan) {
+        //TODO
+        return false;
     }
 }
