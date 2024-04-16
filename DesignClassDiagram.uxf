@@ -7,20 +7,20 @@
 
 -
 + createLoan(loanNo: int, borrowDate: String, period: int, status: boolean)
-(?)+findFriendByPhoneNo(phoneNo:int)
-(?)+findCopyBySerialNo(serialNo:int)
+(?)+ findFriendByPhoneNo(phoneNo:int)
+(?)+ findCopyBySerialNo(serialNo:int)
 + addCopyToLoan(copy: Copy):boolean
 + addLoanToContainer(newLoan: Loan): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1024</x><y>304</y><w>224</w><h>72</h></coordinates><panel_attributes>LpContainer
 -
-_-instance: LpContainer_
+_- instance: LpContainer_
 -
-_+getInstance(): LpContainer_
-+findCopyBySerialNo(serialNo:int)
+_+ getInstance(): LpContainer_
++ findCopyBySerialNo(serialNo:int)
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>24</x><y>272</y><w>232</w><h>72</h></coordinates><panel_attributes>FriendContainer
 -
-_-instance: FriendContainer_
+_- instance: FriendContainer_
 -
-_+getInstance(): FriendContainer_
+_+ getInstance(): FriendContainer_
 +findFriendByPhoneNo(phoneNo:int)
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>632</x><y>72</y><w>24</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
@@ -29,9 +29,9 @@ _+getInstance(): FriendContainer_
 </panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>192</x><y>232</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=&lt;-
 </panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>312</y><w>248</w><h>72</h></coordinates><panel_attributes>LoanContainer
 -
-_-instance: LoanContainer_
+_- instance: LoanContainer_
 -
-_+getInstance(): LoanContainer_
+_+ getInstance(): LoanContainer_
 + addCopyToLoan(copy: Copy):boolean
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>384</y><w>352</w><h>168</h></coordinates><panel_attributes>Friend
 --
@@ -63,7 +63,7 @@ _+getInstance(): LoanContainer_
 + setArtist(artist: String)
 + getPublicationDate():String
 + setPublicationDate(publicationDate: String)
-+findCopyBySerialNo(serialNo:int)
++ findCopyBySerialNo(serialNo:int)
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1024</x><y>672</y><w>264</w><h>136</h></coordinates><panel_attributes>Copy
 -
@@ -102,15 +102,15 @@ isHome: boolean
 -
 
 -
-+createFriend (name: String, address: String, phoneNo:int)
-+findFriendByPhoneNo(phoneNo:int)
++ createFriend (name: String, address: String, phoneNo:int)
++ findFriendByPhoneNo(phoneNo:int)
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>248</x><y>200</y><w>312</w><h>32</h></coordinates><panel_attributes>lt=&lt;-
 </panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1024</x><y>152</y><w>240</w><h>96</h></coordinates><panel_attributes>LpController
 -
 
 -
 + createLp(barcode: String, title: String, artist: String, publicationDate: String)
-+findCopyBySerialNo(serialNo:int)
++ findCopyBySerialNo(serialNo:int)
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1064</x><y>240</y><w>24</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
 
 </panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>704</x><y>376</y><w>24</w><h>112</h></coordinates><panel_attributes>lt=&lt;-
