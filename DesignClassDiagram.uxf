@@ -1,8 +1,8 @@
-<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLClass</id><coordinates><x>1014</x><y>0</y><w>377</w><h>130</h></coordinates><panel_attributes>LpManagementUI
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>780</x><y>0</y><w>290</w><h>100</h></coordinates><panel_attributes>LpManagementUI
 -
 - lendLpController : LendLpController
 - friendController : FriendController
-- lpController : LpController</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>884</x><y>247</y><w>611</w><h>208</h></coordinates><panel_attributes>LendLpController
+- lpController : LpController</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>190</y><w>470</w><h>160</h></coordinates><panel_attributes>LendLpController
 -
 
 -
@@ -10,7 +10,7 @@
 + findFriendByPhoneNo(phoneNo:int)
 + findCopyBySerialNo(serialNo:int)
 + addCopyToLoan(copy: Copy):boolean
-+ addLoanToContainer(newLoan: Loan): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1664</x><y>494</y><w>364</w><h>143</h></coordinates><panel_attributes>LpContainer
++ addLoanToContainer(newLoan: Loan): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1280</x><y>380</y><w>280</w><h>110</h></coordinates><panel_attributes>LpContainer
 -
 - lps: ArrayList&lt;Lp&gt;
 _- instance: LpContainer_
@@ -18,7 +18,7 @@ _- instance: LpContainer_
 _+ getInstance(): LpContainer_
 + findCopyBySerialNo(serialNo:int):Copy
 + addLp(lp:Lp):void
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>39</x><y>442</y><w>377</w><h>130</h></coordinates><panel_attributes>FriendContainer
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>340</y><w>290</w><h>100</h></coordinates><panel_attributes>FriendContainer
 -
 - friends: ArrayList&lt;Friend&gt;
 _- instance: FriendContainer_
@@ -26,18 +26,18 @@ _- instance: FriendContainer_
 _+ getInstance(): FriendContainer_
 + findFriendByPhoneNo(phoneNo:int)
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1196</x><y>117</y><w>39</w><h>156</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>90</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
 
-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1482</x><y>325</y><w>208</w><h>52</h></coordinates><panel_attributes>lt=&lt;-
-</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>312</x><y>377</y><w>39</w><h>91</h></coordinates><panel_attributes>lt=&lt;-
-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>975</x><y>507</y><w>403</w><h>130</h></coordinates><panel_attributes>LoanContainer
+</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1140</x><y>250</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>290</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>390</y><w>310</w><h>100</h></coordinates><panel_attributes>LoanContainer
 -
 - loans: ArrayList&lt;Loan&gt;
 _- instance: LoanContainer_
 -
 _+ getInstance(): LoanContainer_
 + addCopyToLoan(copy: Copy):boolean
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>624</y><w>572</w><h>273</h></coordinates><panel_attributes>Friend
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>480</y><w>440</w><h>210</h></coordinates><panel_attributes>Friend
 --
 - name: String
 - address: String
@@ -50,8 +50,8 @@ _+ getInstance(): LoanContainer_
 + setAddress(address: String)
 + getPhoneNo():int
 + setPhoneNo(phoneNo: int)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>312</x><y>559</y><w>39</w><h>91</h></coordinates><panel_attributes>lt=&lt;-
-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1664</x><y>676</y><w>650</w><h>364</h></coordinates><panel_attributes>Lp
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>430</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1280</x><y>520</y><w>500</w><h>280</h></coordinates><panel_attributes>Lp
 --
 - barcode: String
 - title: String
@@ -70,7 +70,7 @@ _+ getInstance(): LoanContainer_
 + setPublicationDate(publicationDate: String)
 + getCopies():ArrayList&lt;Copy&gt;
 + findCopyBySerialNo(serialNo:int):Copy
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1664</x><y>1092</y><w>429</w><h>208</h></coordinates><panel_attributes>Copy
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1280</x><y>840</y><w>330</w><h>160</h></coordinates><panel_attributes>Copy
 -
 - serialNo: int
 - isHome: boolean
@@ -82,9 +82,9 @@ _+ getInstance(): LoanContainer_
 + setIsHome(isHome: boolean)
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1729</x><y>624</y><w>39</w><h>78</h></coordinates><panel_attributes>lt=&lt;-
-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1729</x><y>1027</y><w>39</w><h>91</h></coordinates><panel_attributes>lt=&lt;-
-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>858</x><y>767</y><w>637</w><h>364</h></coordinates><panel_attributes>Loan
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1330</x><y>480</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1330</x><y>790</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>590</y><w>490</w><h>280</h></coordinates><panel_attributes>Loan
 -
 - loanNo: int
 - borrowDate: String
@@ -101,22 +101,24 @@ _+ getInstance(): LoanContainer_
 + getStatus(): boolean
 + setStatus(status: boolean)
 + addCopyToLoan(copy: Copy):boolean
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1144</x><y>442</y><w>39</w><h>91</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>340</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
 
-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>39</x><y>234</y><w>377</w><h>156</h></coordinates><panel_attributes>FriendController
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>180</y><w>290</w><h>120</h></coordinates><panel_attributes>FriendController
 -
 
 -
 + createFriend (name: String, address: String, phoneNo:int)
 + findFriendByPhoneNo(phoneNo:int)
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>403</x><y>325</y><w>507</w><h>52</h></coordinates><panel_attributes>lt=&lt;-
-</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1664</x><y>247</y><w>585</w><h>143</h></coordinates><panel_attributes>LpController
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>250</y><w>390</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1280</x><y>190</y><w>450</w><h>110</h></coordinates><panel_attributes>LpController
 -
 
 -
 + createLp(barcode: String, title: String, artist: String, publicationDate: String)
-+ findCopyBySerialNo(serialNo:int):Copy</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1729</x><y>377</y><w>39</w><h>143</h></coordinates><panel_attributes>lt=&lt;-
++ findCopyBySerialNo(serialNo:int):Copy</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1330</x><y>290</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
 
-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1144</x><y>624</y><w>39</w><h>169</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>480</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
 
-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>340</y><w>30</w><h>270</h></coordinates><panel_attributes>lt=&lt;-
+
+</panel_attributes><additional_attributes>10;250;10;10</additional_attributes></element></diagram>

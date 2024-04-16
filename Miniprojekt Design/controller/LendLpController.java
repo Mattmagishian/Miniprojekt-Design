@@ -1,12 +1,5 @@
 package controller;
 
-
-/**
- * Write a description of class LendLpController here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class LendLpController
 {
     // instance variables - replace the example below with your own

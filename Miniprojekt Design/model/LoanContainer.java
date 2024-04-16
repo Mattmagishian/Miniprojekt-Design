@@ -1,35 +1,26 @@
 package model;
+import java.util.ArrayList;
 
-
-/**
- * Write a description of class LoanContainer here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class LoanContainer
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private ArrayList<Loan> loans;
+    private static LoanContainer instance;
 
-    /**
-     * Constructor for objects of class LoanContainer
-     */
-    public LoanContainer()
-    {
-        // initialise instance variables
-        x = 0;
+    private LoanContainer(){
+        loans = new ArrayList<>();
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public static LoanContainer getInstance(){
+        if (instance == null){
+            instance = new LoanContainer();
+        }
+        return instance;
     }
+    
+    public boolean addCopyToLoan(Copy copy){
+        //TODO implement method
+        return true;
+    }
+    
 }

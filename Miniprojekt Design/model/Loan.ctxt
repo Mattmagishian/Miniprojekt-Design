@@ -1,6 +1,5 @@
 #BlueJ class context
 comment0.target=Loan
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Loan\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=loanNo\ borrowDate\ period\ status
 comment1.target=Loan(int,\ java.lang.String,\ int,\ boolean)
 comment10.params=copy
