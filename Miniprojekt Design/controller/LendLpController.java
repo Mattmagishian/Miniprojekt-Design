@@ -12,8 +12,7 @@ public class LendLpController
     
     public void createLoan(int loanNo, String borrowDate, int period, boolean status, Friend loaner) {
         //TODO implement
-        //this is incorrect for some reason:D manana manana
-        //Loan newLoan = new Loan(loanNo, borrowDate, period, status, loaner);
+        Loan newLoan = new Loan(loanNo, borrowDate, period, status, loaner);
     }
     
     public Friend findFriendByPhoneNo(String phoneNo) {

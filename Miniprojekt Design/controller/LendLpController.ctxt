@@ -1,10 +1,15 @@
 #BlueJ class context
 comment0.target=LendLpController
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ LendLpController\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=LendLpController()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LendLpController\r\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
-numComments=3
+comment2.params=loanNo\ borrowDate\ period\ status\ loaner
+comment2.target=void\ createLoan(int,\ java.lang.String,\ int,\ boolean,\ model.Friend)
+comment3.params=phoneNo
+comment3.target=model.Friend\ findFriendByPhoneNo(java.lang.String)
+comment4.params=serialNo
+comment4.target=model.Copy\ findCopyBySerialNo(int)
+comment5.params=copy
+comment5.target=boolean\ addCopyToLoan(model.Copy)
+comment6.params=newLoan
+comment6.target=boolean\ addLoanToContainer(model.Loan)
+numComments=7

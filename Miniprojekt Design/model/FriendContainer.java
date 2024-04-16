@@ -9,23 +9,31 @@ import java.util.ArrayList;
  */
 public class FriendContainer
 {
-    //fields
     private ArrayList<Friend> friends;
     private static FriendContainer instance;
-    
+
     private FriendContainer() {
         friends = new ArrayList<>();
     }
-    
+
     public static FriendContainer getInstance() {
         if (instance == null){
             instance = new FriendContainer();
         }
         return instance;
     }
-    
+
     public Friend findFriendByPhoneNo(String phoneNo) {
-        //TODO
-        return null;
+        boolean found = false;
+        Friend foundFriend = null;
+        int index = 0;
+        while (!found && index < friends.size()) {
+            Friend f = friends.get(index);
+            if (phoneNo.equals(f.getPhoneNo())) {
+                foundFriend = f;
+                found = true;
+            }
+        }
+        return foundFriend;
     }
 }
