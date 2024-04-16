@@ -1,25 +1,26 @@
 package model;
 
 import model.Friend;
+import java.util.ArrayList;
+
 public class Loan
 {
-    //fields
     private int loanNo;
     private String borrowDate;
     private int period;
     private boolean status;
     private Friend loaner;
+    private ArrayList<Copy> loanCopies;
 
-    //constructor
     public Loan(int loanNo, String borrowDate, int period, boolean status, Friend loaner) {
         this.loanNo = loanNo;
         this.borrowDate = borrowDate;
         this.period = period;
         this.status = status;
         this.loaner = loaner;
+        loanCopies = new ArrayList<>();
     }
 
-    //getters - accessors
     public int getLoanNo() {
         return loanNo;
     }
@@ -36,7 +37,6 @@ public class Loan
         return status;
     }
 
-    //setters - mutators
     public void setLoanNo(int loanNo) {
         this.loanNo = loanNo;
     }
@@ -53,9 +53,12 @@ public class Loan
         this.status = status;
     }
 
-    //empty stub
     public boolean addCopyToLoan(Copy copy) {
-        //TODO
-        return false;
+        boolean added = false;
+        if(copy != null) {
+            loanCopies.add(copy);
+            added = true;
+        }
+        return added;
     }
 }
