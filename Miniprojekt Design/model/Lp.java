@@ -59,5 +59,10 @@ public class Lp
         this.publicationDate = publicationDate;
     }
     
+    public int findCopyBySerialNo(int serialNo){
+        //TODO implement method
+        return 0;
+    }
+    
     
 }
