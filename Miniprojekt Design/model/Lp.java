@@ -1,4 +1,5 @@
 package model;
+import java.util.ArrayList;
 
 
 /**
@@ -14,6 +15,7 @@ public class Lp
     private String title;
     private String artist;
     private String publicationDate;
+    private ArrayList<Copy> copies; 
 
     /**
      * Constructor for objects of class Lp
@@ -57,6 +59,10 @@ public class Lp
     
     public void setPublicationDate(String publicationDate) {
         this.publicationDate = publicationDate;
+    }
+    
+    public ArrayList<Copy> getCopies(){
+        return copies;
     }
     
     public int findCopyBySerialNo(int serialNo){
