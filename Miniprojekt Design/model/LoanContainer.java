@@ -18,9 +18,6 @@ public class LoanContainer
         return instance;
     }
     
-    public boolean addCopyToLoan(Copy copy){
-        //TODO implement method
-        return true;
-    }
+
     
 }

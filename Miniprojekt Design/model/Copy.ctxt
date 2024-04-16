@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=Copy
-comment1.params=sNo
+comment1.params=serialNo
 comment1.target=Copy(int)
 comment2.params=
-comment2.target=int\ getserialNo()
+comment2.target=int\ getSerialNo()
 comment3.params=
-comment3.target=boolean\ getisHome()
-comment4.params=newNo
-comment4.target=void\ setserialNo(int)
-comment5.params=newStatus
-comment5.target=void\ newStatus(boolean)
+comment3.target=boolean\ getIsHome()
+comment4.params=serialNo
+comment4.target=void\ setSerialNo(int)
+comment5.params=isHome
+comment5.target=void\ setIsHome(boolean)
 numComments=6

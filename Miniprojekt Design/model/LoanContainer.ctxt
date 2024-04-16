@@ -4,6 +4,4 @@ comment1.params=
 comment1.target=LoanContainer()
 comment2.params=
 comment2.target=LoanContainer\ getInstance()
-comment3.params=copy
-comment3.target=boolean\ addCopyToLoan(Copy)
-numComments=4
+numComments=3
