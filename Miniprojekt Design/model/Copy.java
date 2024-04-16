@@ -1,35 +1,33 @@
 package model;
 
 
-/**
- * Write a description of class Copy here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Copy
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private int serialNo;
+    private boolean isHome;
 
-    /**
-     * Constructor for objects of class Copy
-     */
-    public Copy()
-    {
-        // initialise instance variables
-        x = 0;
+    public Copy (int sNo ) {
+        
+    sNo= serialNo;
+    isHome = true;
+    }
+    
+    public int getserialNo(){
+        return serialNo;
+    }
+    
+    public boolean getisHome() {
+    return isHome;
+    }
+    
+    public void setserialNo(int newNo){
+    newNo = serialNo;
+    }
+    
+    public void newStatus(boolean newStatus){
+    newStatus = isHome;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
 }

@@ -1,18 +1,15 @@
 #BlueJ package file
-dependency1.from=Loan
-dependency1.to=Copy
-dependency1.type=UsesDependency
 objectbench.height=137
 objectbench.width=439
 package.divider.horizontal=0.5997854077253219
 package.divider.vertical=0.7990033222591363
 package.editor.height=571
 package.editor.width=655
-package.editor.x=760
-package.editor.y=0
+package.editor.x=428
+package.editor.y=30
 package.frame.height=822
 package.frame.width=780
-package.numDependencies=1
+package.numDependencies=0
 package.numTargets=7
 package.showExtends=true
 package.showUses=true
