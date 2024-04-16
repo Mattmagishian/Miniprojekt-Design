@@ -1,33 +1,29 @@
 package model;
 
-
-
 public class Copy
 {
     private int serialNo;
     private boolean isHome;
 
-    public Copy (int sNo ) {
-        
-    sNo= serialNo;
-    isHome = true;
+    public Copy (int serialNo) {
+        this.serialNo = serialNo;
+        isHome = true;
     }
     
-    public int getserialNo(){
+    public int getSerialNo(){
         return serialNo;
     }
     
-    public boolean getisHome() {
-    return isHome;
+    public boolean getIsHome() {
+        return isHome;
     }
     
-    public void setserialNo(int newNo){
-    newNo = serialNo;
+    public void setSerialNo(int serialNo){
+        this.serialNo = serialNo;
     }
     
-    public void newStatus(boolean newStatus){
-    newStatus = isHome;
+    public void setIsHome(boolean isHome){
+        this.isHome = isHome;
     }
-
     
 }
