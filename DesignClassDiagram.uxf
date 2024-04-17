@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>704</x>
-      <y>0</y>
+      <y>48</y>
       <w>232</w>
       <h>80</h>
     </coordinates>
@@ -20,7 +20,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>624</x>
-      <y>152</y>
+      <y>200</y>
       <w>448</w>
       <h>112</h>
     </coordinates>
@@ -39,7 +39,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>1088</x>
-      <y>288</y>
+      <y>336</y>
       <w>224</w>
       <h>96</h>
     </coordinates>
@@ -57,15 +57,16 @@ _+ getInstance(): LpContainer_
     <id>UMLClass</id>
     <coordinates>
       <x>104</x>
-      <y>272</y>
+      <y>304</y>
       <w>256</w>
-      <h>80</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes>FriendContainer
 -
 - friends: ArrayList&lt;Friend&gt;
 _- instance: FriendContainer_
 -
++&lt;&lt;create&gt;&gt; FriendContainer
 _+ getInstance(): FriendContainer_
 + findFriendByPhoneNo(phoneNo:String): Friend
 
@@ -76,7 +77,7 @@ _+ getInstance(): FriendContainer_
     <id>Relation</id>
     <coordinates>
       <x>816</x>
-      <y>72</y>
+      <y>120</y>
       <w>24</w>
       <h>96</h>
     </coordinates>
@@ -89,7 +90,7 @@ _+ getInstance(): FriendContainer_
     <id>Relation</id>
     <coordinates>
       <x>1064</x>
-      <y>184</y>
+      <y>232</y>
       <w>56</w>
       <h>32</h>
     </coordinates>
@@ -101,19 +102,19 @@ _+ getInstance(): FriendContainer_
     <id>Relation</id>
     <coordinates>
       <x>272</x>
-      <y>232</y>
+      <y>280</y>
       <w>24</w>
-      <h>56</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>680</x>
-      <y>312</y>
+      <y>360</y>
       <w>248</w>
       <h>88</h>
     </coordinates>
@@ -130,7 +131,7 @@ _+ getInstance(): LoanContainer_
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>384</y>
+      <y>432</y>
       <w>352</w>
       <h>168</h>
     </coordinates>
@@ -138,15 +139,16 @@ _+ getInstance(): LoanContainer_
 --
 - name: String
 - address: String
-- phoneNo: int
+- phoneNo: String
 --
-+ &lt;&lt;create&gt;&gt; Friend (name: String, address: String, phoneNo:int)
-+ getName():String
++ &lt;&lt;create&gt;&gt; Friend (name: String, address: String, phoneNo: String)
++ getName(): String
 + setName(name: String)
-+ getAddress():String
++ getAddress(): String
 + setAddress(address: String)
-+ getPhoneNo():int
++ getPhoneNo(): String
 + setPhoneNo(phoneNo: String)
++ friendInfo()
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -154,7 +156,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>272</x>
-      <y>344</y>
+      <y>392</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -166,7 +168,7 @@ _+ getInstance(): LoanContainer_
     <id>UMLClass</id>
     <coordinates>
       <x>1104</x>
-      <y>416</y>
+      <y>464</y>
       <w>256</w>
       <h>232</h>
     </coordinates>
@@ -197,7 +199,7 @@ _+ getInstance(): LoanContainer_
     <id>UMLClass</id>
     <coordinates>
       <x>1104</x>
-      <y>680</y>
+      <y>728</y>
       <w>264</w>
       <h>128</h>
     </coordinates>
@@ -220,7 +222,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>1112</x>
-      <y>376</y>
+      <y>424</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -232,7 +234,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>1144</x>
-      <y>640</y>
+      <y>688</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -244,7 +246,7 @@ _+ getInstance(): LoanContainer_
     <id>UMLClass</id>
     <coordinates>
       <x>608</x>
-      <y>472</y>
+      <y>520</y>
       <w>472</w>
       <h>240</h>
     </coordinates>
@@ -274,7 +276,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>784</x>
-      <y>256</y>
+      <y>304</y>
       <w>24</w>
       <h>72</h>
     </coordinates>
@@ -287,7 +289,7 @@ _+ getInstance(): LoanContainer_
     <id>UMLClass</id>
     <coordinates>
       <x>104</x>
-      <y>160</y>
+      <y>208</y>
       <w>328</w>
       <h>80</h>
     </coordinates>
@@ -303,7 +305,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>424</x>
-      <y>200</y>
+      <y>248</y>
       <w>216</w>
       <h>32</h>
     </coordinates>
@@ -315,7 +317,7 @@ _+ getInstance(): LoanContainer_
     <id>UMLClass</id>
     <coordinates>
       <x>1104</x>
-      <y>152</y>
+      <y>200</y>
       <w>240</w>
       <h>64</h>
     </coordinates>
@@ -331,7 +333,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>1112</x>
-      <y>208</y>
+      <y>256</y>
       <w>24</w>
       <h>96</h>
     </coordinates>
@@ -344,7 +346,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>784</x>
-      <y>392</y>
+      <y>440</y>
       <w>24</w>
       <h>96</h>
     </coordinates>
@@ -357,7 +359,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>640</x>
-      <y>256</y>
+      <y>304</y>
       <w>24</w>
       <h>232</h>
     </coordinates>
@@ -370,7 +372,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>1320</x>
-      <y>208</y>
+      <y>256</y>
       <w>24</w>
       <h>224</h>
     </coordinates>
