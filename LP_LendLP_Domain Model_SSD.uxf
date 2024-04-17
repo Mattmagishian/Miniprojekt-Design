@@ -14,7 +14,7 @@
 loanNumber
 borrowDate
 period
-status
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -246,7 +246,7 @@ confirmation</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-createLoan(loanNumber: int, borrowDate: String, period: int, status: boolean)
+createLoan(loanNumber: int, borrowDate: String, period: int)
 </panel_attributes>
     <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
