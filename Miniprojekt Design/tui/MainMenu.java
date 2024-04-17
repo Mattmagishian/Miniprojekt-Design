@@ -75,7 +75,7 @@ public class MainMenu
         System.out.println("Indtast din vens telefonnummer:");
         String phoneNo = scanner.next();
         Friend friend = findFriendByPhoneNo(phoneNo);
-        friend.friendInfo();
+        friend.printFriendInfo();
         System.out.println("Indtast udlåningsdato:");
         String borrowDate = scanner.next();
         System.out.println("Indtast låneperioden i antal dage:");
