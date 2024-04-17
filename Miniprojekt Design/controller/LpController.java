@@ -10,7 +10,7 @@ import model.*;
 public class LpController
 {
     // instance variables - replace the example below with your own
-    public LpController(String barcode, String title, String artist, String publicationDate){
+    public LpController(){
         //TODO initalize this
     }
     
@@ -19,7 +19,6 @@ public class LpController
     }
     
     public Copy findCopyBySerialNo(int serialNo){
-        //TODO implement method
-        return null; 
+        return LpContainer.getInstance().findCopyBySerialNo(serialNo);
     }
 }

@@ -23,6 +23,8 @@ public class LendLpController
     
     public Copy findCopyBySerialNo(int serialNo) {
         //TODO
+        LpController lpController = new LpController();
+        
         return null;
     }
     
