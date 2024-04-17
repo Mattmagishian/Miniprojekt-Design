@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MainMenu
+comment1.params=
+comment1.target=MainMenu()
+comment2.params=phoneNo
+comment2.target=model.Friend\ findFriendByPhoneNo(java.lang.String)
+comment3.params=loanNo\ borrowDate\ period\ friend
+comment3.target=void\ createLoan(java.lang.String,\ java.lang.String,\ int,\ model.Friend)
+comment4.params=serialNo
+comment4.target=model.Copy\ findCopyBySerialNo(int)
+comment5.params=copy
+comment5.target=model.Copy\ addCopyToLoan(model.Copy)
+comment6.params=
+comment6.target=void\ endLoan()
+numComments=7
