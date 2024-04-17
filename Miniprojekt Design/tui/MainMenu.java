@@ -8,8 +8,7 @@ public class MainMenu
     private LendLpController lendLpController;
     private FriendController friendController;
     private LpController lpcontroller;
-    
-    Scanner scanner = new Scanner(System.in);
+
     public MainMenu(){
     }
     
@@ -17,7 +16,16 @@ public class MainMenu
         printMainMenu();
         boolean running = true; 
         while (running){
-            int choice = getUserInput();
+            int choice = getUserInputInt();
+            switch (choice){
+                case 1:
+                    //Add function
+                    lendLp();
+                    break; 
+                case 2: 
+                    //Add logic
+                    break;
+            }
         }
     }
     
@@ -32,14 +40,15 @@ public class MainMenu
         System.out.println("(0) Afslut");
     }
     
-    private int getUserInput(){
+    private int getUserInputInt(){
+        Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextInt()){
             System.out.println("Indtast gyldig input");
             scanner.nextLine();
         }
-        int userInput = scanner.nextInt();
+        int userInputInt = scanner.nextInt();
         scanner.nextLine();
-        return userInput;
+        return userInputInt;
     }
     
     private Friend findFriendByPhoneNo(String phoneNo){
@@ -60,5 +69,11 @@ public class MainMenu
     
     private void endLoan(){
         lendLpController.addLoanToContainer();
+    }
+    
+    private void lendLp(){
+        Scanner scanner = new Scanner(System.in);
+        String phoneNo = scanner.next();
+        findFriendByPhoneNo(phoneNo);
     }
 }
