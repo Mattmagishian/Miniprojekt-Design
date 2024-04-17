@@ -19,11 +19,10 @@ public class MainMenu
             int choice = getUserInputInt();
             switch (choice){
                 case 1:
-                    //Add function
                     lendLp();
                     break; 
                 case 2: 
-                    //Add logic
+                    System.out.println("Denne funktion er ikke lavet endnu");
                     break;
             }
         }
