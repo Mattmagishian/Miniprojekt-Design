@@ -8,16 +8,14 @@ public class Loan
     private int loanNo;
     private String borrowDate;
     private int period;
-    private boolean status;
-    private Friend loaner;
+    private Friend friend;
     private ArrayList<Copy> loanCopies;
 
-    public Loan(int loanNo, String borrowDate, int period, boolean status, Friend loaner) {
+    public Loan(int loanNo, String borrowDate, int period, Friend friend) {
         this.loanNo = loanNo;
         this.borrowDate = borrowDate;
         this.period = period;
-        this.status = status;
-        this.loaner = loaner;
+        this.friend = friend;
         loanCopies = new ArrayList<>();
     }
 
@@ -28,13 +26,9 @@ public class Loan
     public String getBorrowDate() {
         return borrowDate;
     }
-
+    
     public int getPeriod() {
         return period;
-    }
-
-    public boolean getStatus() {
-        return status;
     }
 
     public void setLoanNo(int loanNo) {
@@ -47,10 +41,6 @@ public class Loan
 
     public void setPeriod(int period) {
         this.period = period;
-    }
-
-    public void setStatus(boolean status) {
-        this.status = status;
     }
 
     public boolean addCopyToLoan(Copy copy) {

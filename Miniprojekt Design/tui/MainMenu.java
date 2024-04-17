@@ -10,31 +10,31 @@ public class MainMenu
     private LpController lpcontroller;
     
     Scanner scanner = new Scanner(System.in);
-    public MainMenu()
-    {
+    public MainMenu(){
     }
     
     public void mainMenu(){
+        printMainMenu();
         boolean running = true; 
         while (running){
             int choice = getUserInput();
         }
     }
     
-    public void printMainMenu(){
+    private void printMainMenu(){
         System.out.println("*******************");
-        System.out.println("*** Main Menu ***");
-        System.out.println("(1) Lend LP");
-        System.out.println("(2) Manage LPs");
-        System.out.println("(3) Return LP");
-        System.out.println("(4) Manage friends");
+        System.out.println("*** Hovedmenu ***");
+        System.out.println("(1) Lån LP");
+        System.out.println("(2) Håndtere LP'er");
+        System.out.println("(3) Returnere LP'er");
+        System.out.println("(4) Håndtere venner");
 
-        System.out.println("(0) Exit");
+        System.out.println("(0) Afslut");
     }
     
-    public int getUserInput(){
+    private int getUserInput(){
         while (!scanner.hasNextInt()){
-            System.out.println("Enter valid input");
+            System.out.println("Indtast gyldig input");
             scanner.nextLine();
         }
         int userInput = scanner.nextInt();
@@ -42,27 +42,23 @@ public class MainMenu
         return userInput;
     }
     
-    
-    public Friend findFriendByPhoneNo(String phoneNo){
-        //TODO
-        return null;
+    private Friend findFriendByPhoneNo(String phoneNo){
+        return lendLpController.findFriendByPhoneNo(phoneNo);
     }
     
-    public void createLoan(String loanNo, String borrowDate, int period, Friend friend){
-        //TODO
+    private void createLoan(int loanNo, String borrowDate, int period){
+        lendLpController.createLoan(loanNo, borrowDate, period);
     }
     
-    public Copy findCopyBySerialNo(int serialNo){
-        //TODO
-        return null; 
+    private Copy findCopyBySerialNo(int serialNo){
+        return lendLpController.findCopyBySerialNo(serialNo); 
     }
     
-    public Copy addCopyToLoan(Copy copy){
-        //TODO 
-        return null;
+    private void addCopyToLoan(Copy copy){
+        lendLpController.addCopyToLoan(copy);
     }
     
-    public void endLoan(){
-        //TODO 
+    private void endLoan(){
+        lendLpController.addLoanToContainer();
     }
 }
