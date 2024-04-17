@@ -25,6 +25,7 @@ public class Lp
         this.title = title;
         this.artist = artist;
         this.publicationDate = publicationDate;
+        copies = new ArrayList<>();
     }
 
     public String getBarcode()
