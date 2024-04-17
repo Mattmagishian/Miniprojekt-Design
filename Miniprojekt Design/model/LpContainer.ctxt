@@ -8,5 +8,5 @@ comment2.target=LpContainer\ getInstance()
 comment3.params=lp
 comment3.target=void\ addLp(Lp)
 comment4.params=serialNo
-comment4.target=int\ findCopyBySerialNo(int)
+comment4.target=Copy\ findCopyBySerialNo(int)
 numComments=5

@@ -29,9 +29,11 @@ public class LpContainer
         //TODO implement add funtion call from controller
     }
     
-    public int findCopyBySerialNo(int serialNo){
-        //TODO Implement method
-        return 0;
+    public Copy findCopyBySerialNo (int serialNo){
+        Copy foundCopy = null;
+        for (Lp l : lps){
+            foundCopy = l.findCopyBySerialNo(serialNo);
+        }
+        return foundCopy;
     }
-
 }
