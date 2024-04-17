@@ -192,7 +192,7 @@ _+ getInstance(): LoanContainer_
 + getPublicationDate(): String
 + setPublicationDate(publicationDate: String)
 + getCopies(): ArrayList&lt;Copy&gt;
-+ findCopyBySerialNo(serialNo:int): Copy
++ findCopyBySerialNo(serialNo: int): Copy
 
 </panel_attributes>
     <additional_attributes/>
