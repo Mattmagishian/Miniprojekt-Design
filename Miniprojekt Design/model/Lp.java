@@ -65,10 +65,14 @@ public class Lp
         return copies;
     }
     
-    public int findCopyBySerialNo(int serialNo){
-        //TODO implement method
-        return 0;
+    public Copy findCopyBySerialNo(int serialNo){
+        Copy foundCopy = null;
+        for (Copy c : copies){
+            if(c.getSerialNo() == serialNo){
+                foundCopy = c;
+                break;
+            }
+        }
+        return foundCopy;
     }
-    
-    
 }
