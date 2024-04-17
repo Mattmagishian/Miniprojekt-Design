@@ -1,5 +1,6 @@
 package model;
 import java.util.ArrayList;
+import java.util.*;
 
 
 /**
@@ -29,11 +30,28 @@ public class LpContainer
         //TODO implement add funtion call from controller
     }
     
+    // public Copy findCopyBySerialNo (int serialNo){
+        // Copy foundCopy = null;
+        // for (Lp l : lps){
+            // foundCopy = l.findCopyBySerialNo(serialNo);
+        // }
+        // return foundCopy;
+    // }
+    
     public Copy findCopyBySerialNo (int serialNo){
         Copy foundCopy = null;
-        for (Lp l : lps){
-            foundCopy = l.findCopyBySerialNo(serialNo);
+        Iterator<Lp> it = lps.iterator();
+        boolean found = false;
+        while(!found&&it.hasNext())
+        {
+            Lp lp = it.next();
+            Copy c = lp.findCopyBySerialNo(serialNo);
+            if(c != null){
+                foundCopy = c;
+                found = true;
+            }
         }
+        
         return foundCopy;
     }
 }
