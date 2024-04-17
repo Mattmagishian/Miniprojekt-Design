@@ -1,15 +1,13 @@
 #BlueJ class context
 comment0.target=LendLpController
-comment1.params=
-comment1.target=LendLpController()
-comment2.params=loanNo\ borrowDate\ period\ status\ loaner
-comment2.target=void\ createLoan(int,\ java.lang.String,\ int,\ boolean,\ model.Friend)
-comment3.params=phoneNo
-comment3.target=model.Friend\ findFriendByPhoneNo(java.lang.String)
-comment4.params=serialNo
-comment4.target=model.Copy\ findCopyBySerialNo(int)
-comment5.params=copy
-comment5.target=boolean\ addCopyToLoan(model.Copy)
-comment6.params=newLoan
-comment6.target=boolean\ addLoanToContainer(model.Loan)
-numComments=7
+comment1.params=loanNo\ borrowDate\ period\ status
+comment1.target=void\ createLoan(int,\ java.lang.String,\ int,\ boolean)
+comment2.params=phoneNo
+comment2.target=model.Friend\ findFriendByPhoneNo(java.lang.String)
+comment3.params=serialNo
+comment3.target=model.Copy\ findCopyBySerialNo(int)
+comment4.params=copy
+comment4.target=boolean\ addCopyToLoan(model.Copy)
+comment5.params=
+comment5.target=boolean\ addLoanToContainer()
+numComments=6

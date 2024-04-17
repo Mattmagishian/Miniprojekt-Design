@@ -1,10 +1,6 @@
 #BlueJ class context
 comment0.target=LpController
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ LpController\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=LpController()
-comment2.params=barcode\ title\ artist\ publicationDate
-comment2.target=void\ createLp(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
-comment3.params=serialNo
-comment3.target=model.Copy\ findCopyBySerialNo(int)
-numComments=4
+comment1.params=serialNo
+comment1.target=model.Copy\ findCopyBySerialNo(int)
+numComments=2

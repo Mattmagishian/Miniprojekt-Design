@@ -1,6 +1,12 @@
 #BlueJ package file
+dependency1.from=LendLpController
+dependency1.to=FriendController
+dependency1.type=UsesDependency
+dependency2.from=LendLpController
+dependency2.to=LpController
+dependency2.type=UsesDependency
 objectbench.height=92
-objectbench.width=451
+objectbench.width=761
 package.divider.horizontal=0.599791013584117
 package.divider.vertical=0.7991214057507987
 package.editor.height=394
@@ -9,7 +15,7 @@ package.editor.x=468
 package.editor.y=76
 package.frame.height=600
 package.frame.width=800
-package.numDependencies=0
+package.numDependencies=2
 package.numTargets=3
 package.showExtends=true
 package.showUses=true

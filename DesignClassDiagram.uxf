@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>88</y>
+      <x>704</x>
+      <y>0</y>
       <w>232</w>
       <h>80</h>
     </coordinates>
@@ -19,8 +19,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>544</x>
-      <y>240</y>
+      <x>624</x>
+      <y>152</y>
       <w>448</w>
       <h>112</h>
     </coordinates>
@@ -38,8 +38,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
-      <y>376</y>
+      <x>1088</x>
+      <y>288</y>
       <w>224</w>
       <h>96</h>
     </coordinates>
@@ -56,8 +56,8 @@ _+ getInstance(): LpContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>24</x>
-      <y>360</y>
+      <x>104</x>
+      <y>272</y>
       <w>256</w>
       <h>80</h>
     </coordinates>
@@ -75,8 +75,8 @@ _+ getInstance(): FriendContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>736</x>
-      <y>160</y>
+      <x>816</x>
+      <y>72</y>
       <w>24</w>
       <h>96</h>
     </coordinates>
@@ -88,8 +88,8 @@ _+ getInstance(): FriendContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>984</x>
-      <y>288</y>
+      <x>1064</x>
+      <y>184</y>
       <w>56</w>
       <h>32</h>
     </coordinates>
@@ -100,8 +100,8 @@ _+ getInstance(): FriendContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>192</x>
-      <y>320</y>
+      <x>272</x>
+      <y>232</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -112,8 +112,8 @@ _+ getInstance(): FriendContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>400</y>
+      <x>680</x>
+      <y>312</y>
       <w>248</w>
       <h>88</h>
     </coordinates>
@@ -129,8 +129,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>472</y>
+      <x>80</x>
+      <y>384</y>
       <w>352</w>
       <h>168</h>
     </coordinates>
@@ -153,8 +153,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>192</x>
-      <y>432</y>
+      <x>272</x>
+      <y>344</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -165,8 +165,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1024</x>
-      <y>504</y>
+      <x>1104</x>
+      <y>416</y>
       <w>256</w>
       <h>232</h>
     </coordinates>
@@ -196,8 +196,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1024</x>
-      <y>768</y>
+      <x>1104</x>
+      <y>680</y>
       <w>264</w>
       <h>128</h>
     </coordinates>
@@ -219,8 +219,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1032</x>
-      <y>464</y>
+      <x>1112</x>
+      <y>376</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -231,8 +231,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1064</x>
-      <y>728</y>
+      <x>1144</x>
+      <y>640</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -243,8 +243,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>528</x>
-      <y>560</y>
+      <x>608</x>
+      <y>472</y>
       <w>472</w>
       <h>240</h>
     </coordinates>
@@ -273,8 +273,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>704</x>
-      <y>344</y>
+      <x>784</x>
+      <y>256</y>
       <w>24</w>
       <h>72</h>
     </coordinates>
@@ -286,10 +286,10 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>24</x>
-      <y>232</y>
+      <x>104</x>
+      <y>160</y>
       <w>328</w>
-      <h>96</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>FriendController
 -
@@ -302,8 +302,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>344</x>
-      <y>288</y>
+      <x>424</x>
+      <y>200</y>
       <w>216</w>
       <h>32</h>
     </coordinates>
@@ -314,16 +314,15 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1024</x>
-      <y>240</y>
+      <x>1104</x>
+      <y>152</y>
       <w>240</w>
-      <h>72</h>
+      <h>64</h>
     </coordinates>
     <panel_attributes>LpController
 -
 
 -
-+ createLp(barcode: String, title: String, artist: String, publicationDate: String)
 + findCopyBySerialNo(serialNo:int): Copy
 </panel_attributes>
     <additional_attributes/>
@@ -331,21 +330,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1032</x>
-      <y>304</y>
-      <w>24</w>
-      <h>88</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-
-</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>704</x>
-      <y>480</y>
+      <x>1112</x>
+      <y>208</y>
       <w>24</w>
       <h>96</h>
     </coordinates>
@@ -357,8 +343,21 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>344</y>
+      <x>784</x>
+      <y>392</y>
+      <w>24</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>256</y>
       <w>24</w>
       <h>232</h>
     </coordinates>
@@ -370,14 +369,14 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1240</x>
-      <y>304</y>
+      <x>1320</x>
+      <y>208</y>
       <w>24</w>
-      <h>216</h>
+      <h>224</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 
 </panel_attributes>
-    <additional_attributes>10.0;250.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

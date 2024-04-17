@@ -3,39 +3,31 @@ package controller;
 import model.*;
 public class LendLpController
 {
-    //fields
+    private Loan loan;
+    private Friend friend;
     
-    //constructor
-    public LendLpController() {
-        
-    }
-    
-    public void createLoan(int loanNo, String borrowDate, int period, boolean status, Friend loaner) {
-        Loan newLoan = new Loan(loanNo, borrowDate, period, status, loaner);
+    public void createLoan(int loanNo, String borrowDate, int period, boolean status) {
+        loan = new Loan(loanNo, borrowDate, period, status, friend);
     }
     
     public Friend findFriendByPhoneNo(String phoneNo) {
         //TODO
         FriendController friendController = new FriendController();
-        Friend friend = friendController.findFriendByPhoneNo(phoneNo);
+        friend = friendController.findFriendByPhoneNo(phoneNo);
         return friend;
     }
     
     public Copy findCopyBySerialNo(int serialNo) {
-        //TODO
         LpController lpController = new LpController();
-        
-        return null;
+        Copy copy = lpController.findCopyBySerialNo(serialNo);
+        return copy;
     }
     
     public boolean addCopyToLoan(Copy copy) {
-        //TODO
-        
-        return false;
+        return loan.addCopyToLoan(copy);
     }
     
-    public boolean addLoanToContainer(Loan newLoan) {
-        //TODO
-        return false;
+    public boolean addLoanToContainer() {
+        return LoanContainer.getInstance().addLoanToLoanContainer(loan);
     }
 }

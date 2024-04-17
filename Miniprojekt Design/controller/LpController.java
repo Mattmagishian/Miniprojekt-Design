@@ -9,15 +9,6 @@ import model.*;
  */
 public class LpController
 {
-    // instance variables - replace the example below with your own
-    public LpController(){
-        //TODO initalize this
-    }
-    
-    public void createLp(String barcode, String title, String artist, String publicationDate){
-        //TODO Implement method
-    }
-    
     public Copy findCopyBySerialNo(int serialNo){
         return LpContainer.getInstance().findCopyBySerialNo(serialNo);
     }

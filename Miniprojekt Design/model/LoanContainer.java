@@ -10,14 +10,20 @@ public class LoanContainer
     private LoanContainer(){
         loans = new ArrayList<>();
     }
-    
+
     public static LoanContainer getInstance(){
         if (instance == null){
             instance = new LoanContainer();
         }
         return instance;
     }
-    
 
-    
+    public boolean addLoanToLoanContainer(Loan loan) {
+        boolean added = false;
+        if (loan != null) {
+            loans.add(loan);
+            added = true;
+        }
+        return added;
+    }
 }

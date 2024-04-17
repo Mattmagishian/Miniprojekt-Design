@@ -1,8 +1,6 @@
 #BlueJ class context
 comment0.target=FriendController
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ FriendController\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=FriendController()
-comment2.params=phoneNo
-comment2.target=model.Friend\ findFriendByPhoneNo(java.lang.String)
-numComments=3
+comment1.params=phoneNo
+comment1.target=model.Friend\ findFriendByPhoneNo(java.lang.String)
+numComments=2

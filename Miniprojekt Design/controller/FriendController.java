@@ -9,13 +9,6 @@ import model.*;
  */
 public class FriendController
 {
-    //fields
-    
-    //constructor
-    public FriendController() {
-        
-    }
-    
     public Friend findFriendByPhoneNo(String phoneNo) {
         return FriendContainer.getInstance().findFriendByPhoneNo(phoneNo);
     }
