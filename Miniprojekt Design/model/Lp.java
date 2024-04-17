@@ -75,4 +75,9 @@ public class Lp
         }
         return foundCopy;
     }
+    
+    public Copy findCopyBySerialNo(int serialNo) {
+        Copy foundCopy = null;
+        while (
+    }
 }
