@@ -73,7 +73,8 @@ public class MainMenu
     
     private void lendLp(){
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Indtast din vens telefonnummer");
         String phoneNo = scanner.next();
-        findFriendByPhoneNo(phoneNo);
+        Friend friend = findFriendByPhoneNo(phoneNo);
     }
 }
