@@ -37,7 +37,4 @@ public class FriendContainer
         return foundFriend;
     }
     
-    
-    FriendContainer friendContainer = FriendContainer.getInstance();
-    friendContainer.addFriend(f1);
 }

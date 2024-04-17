@@ -27,7 +27,9 @@ public class LpContainer
     }
     
     public void addLp(Lp lp){
-        
+        if (lp != null) {
+            lps.add(lp);
+        }
     }
     
     public Copy findCopyBySerialNo (int serialNo){
