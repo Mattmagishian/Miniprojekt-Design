@@ -1,0 +1,184 @@
+BlueJ run started: Tue Apr 16 09:56:55 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Detected language "english" based on iso639-2 code "eng"
+Opening project: C:\Users\Kresten\Desktop\Noter\Miniprojekt-Design\Miniprojekt Design
+1713254221630: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+java.io.FileNotFoundException while reading import cache: userhome\bluej\import-cache.xml (The system cannot find the file specified)
+====
+
+====
+BlueJ run started: Wed Apr 17 17:04:51 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Noter\Miniprojekt-Design\Miniprojekt Design
+1713366293316: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+Opening project: C:\Users\Kresten\Desktop\Noter\Programmering\JUnit 5 testing
+1713366609369: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Wed Apr 17 17:34:30 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Miniprojekt Design
+1713368072262: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Wed Apr 17 17:35:08 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Miniprojekt Design Kodekopi
+1713368110352: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713368405375: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713368420791: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713368869902: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Wed Apr 17 18:10:11 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Miniprojekt Design Kodekopi
+1713370214491: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713370285907: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713370341689: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713370898171: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Wed Apr 17 18:43:13 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Miniprojekt Design Kodekopi
+1713372197674: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Wed Apr 17 22:12:09 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Miniprojekt Design Kodekopi
+1713384731142: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713384761696: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713384817047: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+Opening project: C:\Users\Kresten\Desktop\Noter\Programmering\JUnit 5 testing
+1713386469090: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713386968347: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713387097968: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Thu Apr 18 08:40:51 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Miniprojekt Design Kodekopi
+1713422453692: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Thu Apr 18 08:44:13 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Miniprojekt Design Kodekopi
+1713422655080: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713422804650: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713423068759: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713423095079: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1713423293272: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
