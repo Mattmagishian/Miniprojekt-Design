@@ -172,7 +172,7 @@ _+ getInstance(): LoanContainer_
       <x>1088</x>
       <y>480</y>
       <w>416</w>
-      <h>240</h>
+      <h>248</h>
     </coordinates>
     <panel_attributes>Lp
 --
@@ -193,6 +193,7 @@ _+ getInstance(): LoanContainer_
 + setPublicationDate(publicationDate: String)
 + getCopies(): ArrayList&lt;Copy&gt;
 + findCopyBySerialNo(serialNo: int): Copy
++ printCopyInfo()
 
 </panel_attributes>
     <additional_attributes/>
@@ -201,7 +202,7 @@ _+ getInstance(): LoanContainer_
     <id>UMLClass</id>
     <coordinates>
       <x>1088</x>
-      <y>744</y>
+      <y>752</y>
       <w>264</w>
       <h>128</h>
     </coordinates>
@@ -236,7 +237,7 @@ _+ getInstance(): LoanContainer_
     <id>Relation</id>
     <coordinates>
       <x>1128</x>
-      <y>712</y>
+      <y>720</y>
       <w>24</w>
       <h>48</h>
     </coordinates>
