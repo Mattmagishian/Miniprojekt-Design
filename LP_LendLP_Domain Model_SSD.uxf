@@ -114,12 +114,12 @@ phone</panel_attributes>
     <coordinates>
       <x>800</x>
       <y>500</y>
-      <w>520</w>
+      <w>530</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 findCopyBySerialNo(serialNo: int)</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -173,12 +173,12 @@ findFriendByPhoneNo(phoneNo: String)
     <coordinates>
       <x>800</x>
       <y>540</y>
-      <w>520</w>
+      <w>530</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 copyInfo</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -207,24 +207,24 @@ copyInfo</panel_attributes>
     <coordinates>
       <x>800</x>
       <y>580</y>
-      <w>520</w>
+      <w>530</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 addCopyToLoan(copy: Copy)</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>800</x>
       <y>620</y>
-      <w>520</w>
+      <w>530</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 confirmation</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
@@ -246,7 +246,7 @@ confirmation</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-createLoan(loanNumber: int, borrowDate: String, period: int)
+createLoan(loanNumber: int, borrowDate: String, period: int, friend: Friend)
 </panel_attributes>
     <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
