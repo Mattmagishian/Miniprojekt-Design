@@ -64,7 +64,13 @@ public class Lp
     public ArrayList<Copy> getCopies(){
         return copies;
     }
-
+    
+      public void addCopy(Copy copy) {
+        if (copy != null) {
+            copies.add(copy);
+        }
+    }
+    
     public Copy findCopyBySerialNo(int serialNo) {
         boolean found = false;
         Copy foundCopy = null;
