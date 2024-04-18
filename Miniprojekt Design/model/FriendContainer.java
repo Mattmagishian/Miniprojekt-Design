@@ -38,6 +38,8 @@ public class FriendContainer
             if (phoneNo.equals(f.getPhoneNo())) {
                 foundFriend = f;
                 found = true;
+            } else{
+                index++;
             }
         }
         return foundFriend;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<packages javaHome="C:\Users\Kresten\Desktop\Programmer\bluej\jdk" version="5.2.1">
+<packages javaHome="C:\Program Files\bluej\jdk" version="5.2.1">
     <package name="java">
         <package name="io">
             <acts name="InterruptedIOException" access="PUBLIC" kind="TYPE" typeKind="CLASS_NON_FINAL" packageName="java.io">

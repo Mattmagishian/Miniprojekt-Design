@@ -80,6 +80,8 @@ public class Lp
             if(c.getSerialNo() == serialNo){
                 foundCopy = c;
                 found = true;
+            } else {
+                index++;
             }
         }
         return foundCopy;
