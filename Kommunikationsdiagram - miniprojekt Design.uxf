@@ -77,7 +77,7 @@ bg=blue</panel_attributes>
 1: findFriendByPhoneNo
 (phoneNo)
 2: createLoan
-(loanNo, borrowDate, period, friend)
+(loanNo, borrowDate, period)
 3: findCopyBySerialNo
 (serialNo)
 4: addCopyToLoan
