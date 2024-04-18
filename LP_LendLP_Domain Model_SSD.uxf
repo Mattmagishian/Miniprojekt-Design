@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>13</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
-      <y>360</y>
-      <w>110</w>
-      <h>100</h>
+      <x>234</x>
+      <y>299</y>
+      <w>143</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Loan
 --
@@ -21,10 +21,10 @@ period
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>160</y>
-      <w>110</w>
-      <h>100</h>
+      <x>507</x>
+      <y>39</y>
+      <w>143</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>LP
 --
@@ -37,10 +37,10 @@ publicationDate</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>380</y>
-      <w>130</w>
-      <h>50</h>
+      <x>364</x>
+      <y>325</y>
+      <w>169</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..1
@@ -51,10 +51,10 @@ contains &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
-      <y>380</y>
-      <w>100</w>
-      <h>50</h>
+      <x>130</x>
+      <y>325</y>
+      <w>130</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -66,10 +66,10 @@ has &gt;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>360</y>
-      <w>110</w>
-      <h>70</h>
+      <x>507</x>
+      <y>299</y>
+      <w>143</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Copy
 --
@@ -81,10 +81,10 @@ isHome
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
-      <y>360</y>
-      <w>110</w>
-      <h>90</h>
+      <x>0</x>
+      <y>299</y>
+      <w>143</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>Friend
 --
@@ -96,10 +96,10 @@ phone</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>250</y>
-      <w>50</w>
-      <h>130</h>
+      <x>559</x>
+      <y>156</y>
+      <w>65</w>
+      <h>169</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 1
@@ -112,10 +112,10 @@ phone</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>500</y>
-      <w>530</w>
-      <h>40</h>
+      <x>819</x>
+      <y>481</y>
+      <w>689</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 findCopyBySerialNo(serialNo: int)</panel_attributes>
@@ -124,22 +124,22 @@ findCopyBySerialNo(serialNo: int)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>360</y>
-      <w>520</w>
-      <h>40</h>
+      <x>819</x>
+      <y>299</y>
+      <w>689</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-friendInfo</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+friend object</panel_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>780</x>
-      <y>180</y>
-      <w>60</w>
-      <h>110</h>
+      <x>793</x>
+      <y>65</y>
+      <w>78</w>
+      <h>143</h>
     </coordinates>
     <panel_attributes>Lender</panel_attributes>
     <additional_attributes/>
@@ -147,10 +147,10 @@ friendInfo</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1230</x>
-      <y>220</y>
-      <w>140</w>
-      <h>60</h>
+      <x>1378</x>
+      <y>117</y>
+      <w>182</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>:System</panel_attributes>
     <additional_attributes/>
@@ -158,10 +158,10 @@ friendInfo</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>320</y>
-      <w>530</w>
-      <h>50</h>
+      <x>819</x>
+      <y>247</y>
+      <w>689</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 findFriendByPhoneNo(phoneNo: String)
@@ -171,22 +171,22 @@ findFriendByPhoneNo(phoneNo: String)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>540</y>
-      <w>530</w>
-      <h>40</h>
+      <x>819</x>
+      <y>533</y>
+      <w>689</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-copyInfo</panel_attributes>
+copy object</panel_attributes>
     <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>270</y>
-      <w>30</w>
-      <h>510</h>
+      <x>819</x>
+      <y>182</y>
+      <w>39</w>
+      <h>663</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;490.0;10.0;10.0</additional_attributes>
@@ -194,10 +194,10 @@ copyInfo</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1300</x>
-      <y>270</y>
-      <w>30</w>
-      <h>510</h>
+      <x>1469</x>
+      <y>182</y>
+      <w>39</w>
+      <h>663</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;490.0;10.0;10.0</additional_attributes>
@@ -205,10 +205,10 @@ copyInfo</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>580</y>
-      <w>530</w>
-      <h>40</h>
+      <x>819</x>
+      <y>585</y>
+      <w>689</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 addCopyToLoan(copy: Copy)</panel_attributes>
@@ -217,10 +217,10 @@ addCopyToLoan(copy: Copy)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>620</y>
-      <w>530</w>
-      <h>40</h>
+      <x>819</x>
+      <y>637</y>
+      <w>689</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 confirmation</panel_attributes>
@@ -229,10 +229,10 @@ confirmation</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>770</x>
-      <y>480</y>
-      <w>560</w>
-      <h>190</h>
+      <x>780</x>
+      <y>455</y>
+      <w>728</w>
+      <h>247</h>
     </coordinates>
     <panel_attributes>Loop</panel_attributes>
     <additional_attributes/>
@@ -240,10 +240,10 @@ confirmation</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>400</y>
-      <w>530</w>
-      <h>50</h>
+      <x>819</x>
+      <y>351</y>
+      <w>689</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 createLoan(loanNumber: int, borrowDate: String, period: int, friend: Friend)
@@ -253,23 +253,23 @@ createLoan(loanNumber: int, borrowDate: String, period: int, friend: Friend)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>440</y>
-      <w>520</w>
-      <h>50</h>
+      <x>819</x>
+      <y>403</y>
+      <w>689</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 confirmation
 </panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>680</y>
-      <w>530</w>
-      <h>50</h>
+      <x>819</x>
+      <y>715</y>
+      <w>689</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 endLoan
@@ -279,10 +279,10 @@ endLoan
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>720</y>
-      <w>530</w>
-      <h>40</h>
+      <x>819</x>
+      <y>767</y>
+      <w>689</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 confirmation</panel_attributes>
