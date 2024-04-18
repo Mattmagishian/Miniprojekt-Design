@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>704</x>
-      <y>48</y>
+      <x>688</x>
+      <y>64</y>
       <w>232</w>
       <h>80</h>
     </coordinates>
@@ -19,8 +19,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>200</y>
+      <x>608</x>
+      <y>216</y>
       <w>448</w>
       <h>112</h>
     </coordinates>
@@ -28,47 +28,49 @@
 -
 
 -
-+ createLoan(loanNo: int, borrowDate: String, period: int, status: boolean, loaner: Friend)
-+ findFriendByPhoneNo(phoneNo:String): Friend
-+ findCopyBySerialNo(serialNo:int): Copy
-+ addCopyToLoan(copy: Copy):boolean
++ createLoan(loanNo: int, borrowDate: String, period: int, loaner: Friend)
++ findFriendByPhoneNo(phoneNo: String): Friend
++ findCopyBySerialNo(serialNo: int): Copy
++ addCopyToLoan(copy: Copy): boolean
 + addLoanToContainer(newLoan: Loan): boolean</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1088</x>
+      <x>1072</x>
       <y>336</y>
       <w>224</w>
-      <h>96</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>LpContainer
 -
 - Lps: ArrayList&lt;Lp&gt;
 _- instance: LpContainer_
 -
+- &lt;&lt;create&gt;&gt; LpContainer
 _+ getInstance(): LpContainer_
 + findCopyBySerialNo(serialNo:int): Copy
-+ addLp(lp: Lp): void</panel_attributes>
++ addLp(lp: Lp)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>104</x>
-      <y>304</y>
+      <x>88</x>
+      <y>320</y>
       <w>256</w>
-      <h>96</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>FriendContainer
 -
 - friends: ArrayList&lt;Friend&gt;
 _- instance: FriendContainer_
 -
-+&lt;&lt;create&gt;&gt; FriendContainer
+- &lt;&lt;create&gt;&gt; FriendContainer
 _+ getInstance(): FriendContainer_
-+ findFriendByPhoneNo(phoneNo:String): Friend
++ addFriend(friend: Friend)
++ findFriendByPhoneNo(phoneNo: String): Friend
 
 </panel_attributes>
     <additional_attributes/>
@@ -76,8 +78,8 @@ _+ getInstance(): FriendContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>816</x>
-      <y>120</y>
+      <x>800</x>
+      <y>136</y>
       <w>24</w>
       <h>96</h>
     </coordinates>
@@ -89,8 +91,8 @@ _+ getInstance(): FriendContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1064</x>
-      <y>232</y>
+      <x>1048</x>
+      <y>248</y>
       <w>56</w>
       <h>32</h>
     </coordinates>
@@ -101,8 +103,8 @@ _+ getInstance(): FriendContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>272</x>
-      <y>280</y>
+      <x>256</x>
+      <y>296</y>
       <w>24</w>
       <h>40</h>
     </coordinates>
@@ -113,8 +115,8 @@ _+ getInstance(): FriendContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>360</y>
+      <x>664</x>
+      <y>376</y>
       <w>248</w>
       <h>88</h>
     </coordinates>
@@ -130,8 +132,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
-      <y>432</y>
+      <x>64</x>
+      <y>480</y>
       <w>352</w>
       <h>168</h>
     </coordinates>
@@ -155,22 +157,22 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>272</x>
-      <y>392</y>
+      <x>256</x>
+      <y>424</y>
       <w>24</w>
-      <h>56</h>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1104</x>
-      <y>464</y>
-      <w>256</w>
-      <h>232</h>
+      <x>1088</x>
+      <y>480</y>
+      <w>416</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>Lp
 --
@@ -181,16 +183,16 @@ _+ getInstance(): LoanContainer_
 - copies: ArrayList&lt;Copy&gt;
 --
 + &lt;&lt;create&gt;&gt; Lp (barcode: String, title: String, artist: String, publicationDate: String)
-+ getBarcode():String
++ getBarcode(): String
 + setBarcode(barocde: String)
-+ getTitle():String
++ getTitle(): String
 + setTitle(title: String)
-+ getArtist():String
++ getArtist(): String
 + setArtist(artist: String)
-+ getPublicationDate():String
++ getPublicationDate(): String
 + setPublicationDate(publicationDate: String)
-+ getCopies():ArrayList&lt;Copy&gt;
-+ findCopyBySerialNo(serialNo:int): Copy
++ getCopies(): ArrayList&lt;Copy&gt;
++ findCopyBySerialNo(serialNo: int): Copy
 
 </panel_attributes>
     <additional_attributes/>
@@ -198,8 +200,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1104</x>
-      <y>728</y>
+      <x>1088</x>
+      <y>744</y>
       <w>264</w>
       <h>128</h>
     </coordinates>
@@ -221,8 +223,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1112</x>
-      <y>424</y>
+      <x>1096</x>
+      <y>440</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -233,20 +235,20 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1144</x>
-      <y>688</y>
+      <x>1128</x>
+      <y>712</y>
       <w>24</w>
-      <h>56</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>608</x>
-      <y>520</y>
+      <x>592</x>
+      <y>536</y>
       <w>472</w>
       <h>240</h>
     </coordinates>
@@ -255,28 +257,25 @@ _+ getInstance(): LoanContainer_
 - loanNo: int
 - borrowDate: String
 - period: int
-- status: boolean
 - loaner: Friend
 - loanCopies: ArrayList&lt;Copy&gt;
 -
-+ &lt;&lt;create&gt;&gt; Loan (loanNo: int, borrowDate: String, period: int, status: boolean, loaner: Friend)
++ &lt;&lt;create&gt;&gt; Loan (loanNo: int, borrowDate: String, period: int, loaner: Friend)
 + getLoanNo(): int
 + setLoanNo(loanNo: int)
 + getBorrowDate(): String
 + setBorrowDate(borrowDate: String)
 + getPeriod(): int
 + setPeriod(period: int)
-+ getStatus(): boolean
-+ setStatus(status: boolean)
-+ addCopyToLoan(copy: Copy):boolean
++ addCopyToLoan(copy: Copy): boolean
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>784</x>
-      <y>304</y>
+      <x>768</x>
+      <y>320</y>
       <w>24</w>
       <h>72</h>
     </coordinates>
@@ -288,8 +287,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>104</x>
-      <y>208</y>
+      <x>88</x>
+      <y>224</y>
       <w>328</w>
       <h>80</h>
     </coordinates>
@@ -304,8 +303,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>424</x>
-      <y>248</y>
+      <x>408</x>
+      <y>264</y>
       <w>216</w>
       <h>32</h>
     </coordinates>
@@ -316,8 +315,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1104</x>
-      <y>200</y>
+      <x>1088</x>
+      <y>216</y>
       <w>240</w>
       <h>64</h>
     </coordinates>
@@ -325,15 +324,28 @@ _+ getInstance(): LoanContainer_
 -
 
 -
-+ findCopyBySerialNo(serialNo:int): Copy
++ findCopyBySerialNo(serialNo: int): Copy
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1112</x>
-      <y>256</y>
+      <x>1096</x>
+      <y>272</y>
+      <w>24</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>768</x>
+      <y>456</y>
       <w>24</w>
       <h>96</h>
     </coordinates>
@@ -345,21 +357,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>784</x>
-      <y>440</y>
-      <w>24</w>
-      <h>96</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-
-</panel_attributes>
-    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>640</x>
-      <y>304</y>
+      <x>624</x>
+      <y>320</y>
       <w>24</w>
       <h>232</h>
     </coordinates>
@@ -371,8 +370,8 @@ _+ getInstance(): LoanContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
-      <y>256</y>
+      <x>1304</x>
+      <y>272</y>
       <w>24</w>
       <h>224</h>
     </coordinates>

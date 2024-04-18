@@ -27,16 +27,10 @@ public class LpContainer
     }
     
     public void addLp(Lp lp){
-        //TODO implement add funtion call from controller
+        if (lp != null) {
+            lps.add(lp);
+        }
     }
-    
-    // public Copy findCopyBySerialNo (int serialNo){
-        // Copy foundCopy = null;
-        // for (Lp l : lps){
-            // foundCopy = l.findCopyBySerialNo(serialNo);
-        // }
-        // return foundCopy;
-    // }
     
     public Copy findCopyBySerialNo (int serialNo){
         Copy foundCopy = null;
