@@ -28,7 +28,7 @@
 -
 
 -
-+ createLoan(loanNo: int, borrowDate: String, period: int, loaner: Friend)
++ createLoan(loanNo: int, borrowDate: String, period: int, friend: Friend)
 + findFriendByPhoneNo(phoneNo: String): Friend
 + findCopyBySerialNo(serialNo: int): Copy
 + addCopyToLoan(copy: Copy): boolean
@@ -150,7 +150,7 @@ _+ getInstance(): LoanContainer_
 + setAddress(address: String)
 + getPhoneNo(): String
 + setPhoneNo(phoneNo: String)
-+ friendInfo()
++ printFriendInfo()
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -260,7 +260,7 @@ _+ getInstance(): LoanContainer_
 - loaner: Friend
 - loanCopies: ArrayList&lt;Copy&gt;
 -
-+ &lt;&lt;create&gt;&gt; Loan (loanNo: int, borrowDate: String, period: int, loaner: Friend)
++ &lt;&lt;create&gt;&gt; Loan (loanNo: int, borrowDate: String, period: int, friend: Friend)
 + getLoanNo(): int
 + setLoanNo(loanNo: int)
 + getBorrowDate(): String

@@ -90,13 +90,13 @@ bg=blue</panel_attributes>
     <coordinates>
       <x>621</x>
       <y>216</y>
-      <w>513</w>
+      <w>504</w>
       <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 
 1.1: friend = findFriendByPhoneNo (phoneNo: String): Friend
-2.1: newLoan = createLoan (loanNo: int, borrowDate: String, period: int, loaner: Friend)
+2.1: newLoan = createLoan (loanNo: int, borrowDate: String, period: int, friend: Friend)
 3.1: copy = findCopyBySerialNo (serialNo:int):Copy
 4.1: result = addCopyToLoan (copy:Copy):boolean
 5.1: endLoan</panel_attributes>
