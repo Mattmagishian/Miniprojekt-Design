@@ -20,10 +20,27 @@ public class MainMenu
             switch (choice){
                 case 1:
                     lendLp();
-                    break; 
+                    break;
+                    
                 case 2: 
                     System.out.println("Denne funktion er ikke lavet endnu");
                     break;
+                    
+                case 3: 
+                    System.out.println("Denne funktion er ikke lavet endnu");
+                    break;
+                    
+                case 4: 
+                    System.out.println("Denne funktion er ikke lavet endnu");
+                    break;
+                
+                case 0:
+                    running = false;
+                    System.out.println("Farvel og tak, assholes");
+                    break;
+                    
+                default:
+                    System.out.println("Indtast gyldig input");
             }
         }
     }
