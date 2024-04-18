@@ -31,3 +31,33 @@ Opening project: C:\Users\Kresten\Desktop\Noter\Programmering\JUnit 5 testing
 1713366609369: Listening for JDWP connection on address: javadebug
 Connected to debug VM via dt_shmem transport...
 Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Thu Apr 18 09:23:10 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Noter\Miniprojekt-Design\Miniprojekt Design
+1713424993385: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Thu Apr 18 09:24:28 CEST 2024
+BlueJ version 5.2.1
+Java version 17.0.4.1
+JavaFX version 20.0.1+2
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.4.1+1 (Eclipse Adoptium)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Users\Kresten\Desktop\Programmer\bluej\jdk
+----
+Opening project: C:\Users\Kresten\Desktop\Noter\Miniprojekt-Design\Miniprojekt Design
+1713425069873: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.

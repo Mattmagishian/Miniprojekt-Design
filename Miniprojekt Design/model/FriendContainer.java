@@ -22,7 +22,13 @@ public class FriendContainer
         }
         return instance;
     }
-
+    
+    public void addFriend(Friend friend) {
+        if (friend != null) {
+            friends.add(friend);
+        }
+    }
+    
     public Friend findFriendByPhoneNo(String phoneNo) {
         boolean found = false;
         Friend foundFriend = null;
