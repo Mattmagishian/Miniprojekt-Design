@@ -44,9 +44,4 @@ public class Friend
         this.phoneNo = phoneNo;
     }
     
-    public void printFriendInfo() {
-        System.out.println("Name: " + name);
-        System.out.println("Adress: " + address);
-        System.out.println("Phone number: " + phoneNo);
-    }
 }
