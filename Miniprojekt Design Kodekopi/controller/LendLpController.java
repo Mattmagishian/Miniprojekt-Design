@@ -12,7 +12,6 @@ public class LendLpController
     }
     
     public Friend findFriendByPhoneNo(String phoneNo) {
-        //TODO
         FriendController friendController = new FriendController();
         friend = friendController.findFriendByPhoneNo(phoneNo);
         return friend;

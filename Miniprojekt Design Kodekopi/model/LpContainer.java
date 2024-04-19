@@ -11,7 +11,6 @@ import java.util.*;
  */
 public class LpContainer
 {
-    // instance variables - replace the example below with your own
     private ArrayList<Lp> lps;
     private static LpContainer instance; 
     
@@ -31,14 +30,6 @@ public class LpContainer
             lps.add(lp);
         }
     }
-    
-    // public Copy findCopyBySerialNo (int serialNo){
-        // Copy foundCopy = null;
-        // for (Lp l : lps){
-            // foundCopy = l.findCopyBySerialNo(serialNo);
-        // }
-        // return foundCopy;
-    // }
     
     public Copy findCopyBySerialNo (int serialNo){
         Copy foundCopy = null;

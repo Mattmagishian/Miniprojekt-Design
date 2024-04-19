@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 public class LoanContainer
 {
-    // instance variables - replace the example below with your own
     private ArrayList<Loan> loans;
     private static LoanContainer instance;
 

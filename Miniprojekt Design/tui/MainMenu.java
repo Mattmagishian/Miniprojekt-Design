@@ -11,7 +11,7 @@ public class MainMenu
 
     public MainMenu(){
     }
-    
+
     public void mainMenu(){
         printMainMenu();
         boolean running = true; 
@@ -21,24 +21,24 @@ public class MainMenu
                 case 1:
                     lendLp();
                     break;
-                    
+
                 case 2: 
                     System.out.println("Denne funktion er ikke lavet endnu");
                     break;
-                    
+
                 case 3: 
                     System.out.println("Denne funktion er ikke lavet endnu");
                     break;
-                    
+
                 case 4: 
                     System.out.println("Denne funktion er ikke lavet endnu");
                     break;
-                
+
                 case 0:
                     running = false;
                     System.out.println("Farvel og tak, assholes");
                     break;
-                    
+
                 default:
                     System.out.println("Indtast gyldig input");
             }
@@ -46,8 +46,8 @@ public class MainMenu
     }
     
     private void printMainMenu(){
-        System.out.println("*******************");
-        System.out.println("*** Hovedmenu ***");
+        System.out.println("**");
+        System.out.println("** Hovedmenu ***");
         System.out.println("(1) Lån LP");
         System.out.println("(2) Håndtere LP'er");
         System.out.println("(3) Returnere LP'er");
@@ -55,7 +55,7 @@ public class MainMenu
 
         System.out.println("(0) Afslut");
     }
-    
+
     private int getUserInputInt(){
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextInt()){
@@ -66,27 +66,27 @@ public class MainMenu
         scanner.nextLine();
         return userInputInt;
     }
-    
+
     private Friend findFriendByPhoneNo(String phoneNo){
         return lendLpController.findFriendByPhoneNo(phoneNo);
     }
-    
+
     private void createLoan(int loanNo, String borrowDate, int period){
         lendLpController.createLoan(loanNo, borrowDate, period);
     }
-    
+
     private Copy findCopyBySerialNo(int serialNo){
         return lendLpController.findCopyBySerialNo(serialNo); 
     }
-    
+
     private void addCopyToLoan(Copy copy){
         lendLpController.addCopyToLoan(copy);
     }
-    
+
     private void endLoan(){
         lendLpController.addLoanToContainer();
     }
-    
+
     private void lendLp(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Indtast din vens telefonnummer:");
