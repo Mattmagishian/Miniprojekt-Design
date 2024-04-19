@@ -12,7 +12,8 @@ public class LendLpControllerTest
     private LendLpController lendLpController;
 
     Copy copy1;
-    Loan loan1; 
+    Loan loan1;
+    Friend f1;
     
     public LendLpControllerTest()
     {
@@ -21,6 +22,7 @@ public class LendLpControllerTest
     @BeforeEach
     public void setUp()
     {
+        loan1 = new Loan(1, "01012024", 30, f1);
     }
 
 
