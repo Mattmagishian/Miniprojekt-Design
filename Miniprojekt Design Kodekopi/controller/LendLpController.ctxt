@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=LendLpController
 comment1.params=loanNo\ borrowDate\ period
-comment1.target=void\ createLoan(int,\ java.lang.String,\ int)
+comment1.target=model.Loan\ createLoan(int,\ java.lang.String,\ int)
 comment2.params=phoneNo
 comment2.target=model.Friend\ findFriendByPhoneNo(java.lang.String)
 comment3.params=serialNo

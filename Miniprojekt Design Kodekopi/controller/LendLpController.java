@@ -6,8 +6,9 @@ public class LendLpController
     private Loan loan;
     private Friend friend;
     
-    public void createLoan(int loanNo, String borrowDate, int period) {
+    public Loan createLoan(int loanNo, String borrowDate, int period) {
         loan = new Loan(loanNo, borrowDate, period, friend);
+        return loan;
     }
     
     public Friend findFriendByPhoneNo(String phoneNo) {
