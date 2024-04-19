@@ -118,16 +118,13 @@ public class MainMenu
         }
     }
 
-    private void endLoan(){
-        lendLpController.addLoanToContainer();
-        System.out.println("Lånet er nu oprettet i systemet.");
-    }
-
     private void lendLp(int loanNo){
         askForAndFindFriend();
         Loan loan = createLoan(loanNo);
         Copy copy = askForSerialNoAndFindCopy();
         addCopyToLoan(copy);
-        endLoan();
+        //endLoan
+        lendLpController.addLoanToContainer();
+        System.out.println("Lånet er nu oprettet i systemet.");
     }
 }
