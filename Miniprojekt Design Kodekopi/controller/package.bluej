@@ -1,17 +1,17 @@
 #BlueJ package file
-dependency1.from=findFriendByPhoneNoTest
-dependency1.to=LendLpController
+dependency1.from=LendLpController
+dependency1.to=FriendController
 dependency1.type=UsesDependency
-dependency2.from=findCopyBySerialNoTest
-dependency2.to=LendLpController
+dependency2.from=LendLpController
+dependency2.to=LpController
 dependency2.type=UsesDependency
-dependency3.from=LendLpController
-dependency3.to=FriendController
+dependency3.from=LendLpControllerTest
+dependency3.to=LendLpController
 dependency3.type=UsesDependency
-dependency4.from=LendLpController
-dependency4.to=LpController
+dependency4.from=findCopyBySerialNoTest
+dependency4.to=LendLpController
 dependency4.type=UsesDependency
-dependency5.from=LendLpControllerTest
+dependency5.from=findFriendByPhoneNoTest
 dependency5.to=LendLpController
 dependency5.type=UsesDependency
 objectbench.height=107
