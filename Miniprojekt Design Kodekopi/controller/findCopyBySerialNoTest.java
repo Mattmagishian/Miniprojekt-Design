@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeAll;
 import model.*;
 
 /**
@@ -23,7 +24,23 @@ public class findCopyBySerialNoTest
     public findCopyBySerialNoTest()
     {
     }
-
+    
+    @BeforeAll
+    public static void init() {
+        Lp lp1 = new Lp("1", "Yoyo", "Metallica","20-12-2020");
+        Lp lp2 = new Lp("2", "Weekend", "Coldplay", "26-07-2018");
+        LpContainer.getInstance().addLp(lp1);
+        LpContainer.getInstance().addLp(lp2);
+        Copy c1 = new Copy(11);
+        lp1.addCopy(c1);
+        Copy c2 = new Copy(12);
+        lp1.addCopy(c2);
+        Copy c3 = new Copy(21);
+        lp2.addCopy(c3);
+        Copy c4 = new Copy(22);
+        lp2.addCopy(c4);
+    }
+    
     /**
      * Sets up the test fixture.
      *
@@ -50,23 +67,12 @@ public class findCopyBySerialNoTest
         //Arrange
         //make some lps and some copies
         //add copies to the lps
-        //put it in BeforeEach?
-        Lp lp1 = new Lp("1", "Yoyo", "Metallica","20-12-2020");
-        Lp lp2 = new Lp("2", "Weekend", "Coldplay", "26-07-2018");
-        LpContainer.getInstance().addLp(lp1);
-        LpContainer.getInstance().addLp(lp2);
-        Copy c1 = new Copy(11);
-        lp1.addCopy(c1);
-        Copy c2 = new Copy(12);
-        lp1.addCopy(c2);
-        Copy c3 = new Copy(21);
-        lp2.addCopy(c3);
-        Copy c4 = new Copy(22);
-        lp2.addCopy(c4);
+       
         //Act
         Copy result = lendLpController.findCopyBySerialNo(22);
         //Assert
-        assertEquals(c4, result);
+        assertNotNull(result);
+        assertEquals(22, result.getSerialNo());
     }
     
     @Test

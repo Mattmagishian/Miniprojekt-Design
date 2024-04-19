@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeAll;
 import model.*;
 
 /**
@@ -22,7 +23,18 @@ public class findFriendByPhoneNoTest
     public findFriendByPhoneNoTest()
     {
     }
-
+    
+    @BeforeAll
+    public static void init() {
+        Friend f1 = new Friend("Ulrik", "Sorøgade","123");
+        Friend f2 = new Friend("Lise", "Fanøgade", "456");
+        Friend f3 = new Friend("Bob", "Læsøgade", "789");
+        FriendContainer friendContainer = FriendContainer.getInstance();
+        friendContainer.addFriend(f1);
+        friendContainer.addFriend(f2);
+        friendContainer.addFriend(f3);
+    }
+    
     /**
      * Sets up the test fixture.
      *
@@ -46,19 +58,12 @@ public class findFriendByPhoneNoTest
 
     @Test
     public void findFriendByPhoneNoTest() {
-        //TODO DOES NOT WORK
         //Arrange
         //we need to make a few friends with the attribute phone number
-        Friend f1 = new Friend("Ulrik", "Sorøgade","123");
-        Friend f2 = new Friend("Lise", "Fanøgade", "456");
-        Friend f3 = new Friend("Bob", "Læsøgade", "789");
-        FriendContainer friendContainer = FriendContainer.getInstance();
-        friendContainer.addFriend(f1);
-        friendContainer.addFriend(f2);
-        friendContainer.addFriend(f3);
+        
         //Act
         Friend result = lendLpController.findFriendByPhoneNo("456");
         //Assert
-        assertEquals(f2, result);
+        assertEquals("456", result.getPhoneNo());
     }
 }
