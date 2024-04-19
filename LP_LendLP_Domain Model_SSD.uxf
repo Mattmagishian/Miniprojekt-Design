@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="15.1">
+<diagram program="umlet" version="14.3.0">
   <zoom_level>13</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>234</x>
-      <y>299</y>
+      <y>325</y>
       <w>143</w>
       <h>130</h>
     </coordinates>
@@ -22,7 +22,7 @@ period
     <id>UMLClass</id>
     <coordinates>
       <x>507</x>
-      <y>39</y>
+      <y>65</y>
       <w>143</w>
       <h>130</h>
     </coordinates>
@@ -38,7 +38,7 @@ publicationDate</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>364</x>
-      <y>325</y>
+      <y>351</y>
       <w>169</w>
       <h>65</h>
     </coordinates>
@@ -52,7 +52,7 @@ contains &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>130</x>
-      <y>325</y>
+      <y>351</y>
       <w>130</w>
       <h>65</h>
     </coordinates>
@@ -67,7 +67,7 @@ has &gt;
     <id>UMLClass</id>
     <coordinates>
       <x>507</x>
-      <y>299</y>
+      <y>325</y>
       <w>143</w>
       <h>91</h>
     </coordinates>
@@ -82,7 +82,7 @@ isHome
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>299</y>
+      <y>325</y>
       <w>143</w>
       <h>117</h>
     </coordinates>
@@ -97,7 +97,7 @@ phone</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>559</x>
-      <y>156</y>
+      <y>182</y>
       <w>65</w>
       <h>169</h>
     </coordinates>
@@ -113,7 +113,7 @@ phone</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>481</y>
+      <y>507</y>
       <w>689</w>
       <h>52</h>
     </coordinates>
@@ -125,7 +125,7 @@ findCopyBySerialNo(serialNo: int)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>299</y>
+      <y>325</y>
       <w>689</w>
       <h>52</h>
     </coordinates>
@@ -137,7 +137,7 @@ friend object</panel_attributes>
     <id>UMLActor</id>
     <coordinates>
       <x>793</x>
-      <y>65</y>
+      <y>91</y>
       <w>78</w>
       <h>143</h>
     </coordinates>
@@ -148,7 +148,7 @@ friend object</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1378</x>
-      <y>117</y>
+      <y>143</y>
       <w>182</w>
       <h>78</h>
     </coordinates>
@@ -159,7 +159,7 @@ friend object</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>247</y>
+      <y>273</y>
       <w>689</w>
       <h>65</h>
     </coordinates>
@@ -172,7 +172,7 @@ findFriendByPhoneNo(phoneNo: String)
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>533</y>
+      <y>559</y>
       <w>689</w>
       <h>52</h>
     </coordinates>
@@ -184,7 +184,7 @@ copy object</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>182</y>
+      <y>208</y>
       <w>39</w>
       <h>663</h>
     </coordinates>
@@ -195,7 +195,7 @@ copy object</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1469</x>
-      <y>182</y>
+      <y>208</y>
       <w>39</w>
       <h>663</h>
     </coordinates>
@@ -206,7 +206,7 @@ copy object</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>585</y>
+      <y>611</y>
       <w>689</w>
       <h>52</h>
     </coordinates>
@@ -218,7 +218,7 @@ addCopyToLoan(copy: Copy)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>637</y>
+      <y>663</y>
       <w>689</w>
       <h>52</h>
     </coordinates>
@@ -230,7 +230,7 @@ confirmation</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>780</x>
-      <y>455</y>
+      <y>481</y>
       <w>728</w>
       <h>247</h>
     </coordinates>
@@ -241,7 +241,7 @@ confirmation</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>351</y>
+      <y>377</y>
       <w>689</w>
       <h>65</h>
     </coordinates>
@@ -254,7 +254,7 @@ createLoan(loanNumber: int, borrowDate: String, period: int, friend: Friend)
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>403</y>
+      <y>429</y>
       <w>689</w>
       <h>65</h>
     </coordinates>
@@ -267,7 +267,7 @@ confirmation
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>715</y>
+      <y>741</y>
       <w>689</w>
       <h>65</h>
     </coordinates>
@@ -280,7 +280,7 @@ endLoan
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>767</y>
+      <y>793</y>
       <w>689</w>
       <h>52</h>
     </coordinates>
